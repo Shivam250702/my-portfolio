@@ -1,0 +1,100 @@
+@import "../../app.scss";
+.item1{
+  font-size: 25px;
+  color: rgb(209, 209, 195);
+}
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @include mobile {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include mobile {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    h1 {
+      font-size: 100px;
+      line-height: 88px;
+
+      @include mobile {
+        font-size: 36px;
+      }
+    }
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .formContainer {
+    flex: 1;
+    position: relative;
+    
+    @include mobile {
+      padding: 50px;
+      width: 100%;
+    }
+    span {
+      font-family: 'Your Preferred Font', sans-serif; /* Replace 'Your Preferred Font' with the desired font family */
+      font-size: 16px; /* Adjust the font size as needed */
+      font-weight: bold; /* Adjust the font weight as needed */
+      color: #3366cc; /* Adjust the font color as needed */
+      /* Add any other styling properties as per your preference */
+    }
+
+    .phoneSvg {
+      stroke: orange;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+
+        @include mobile {
+          padding: 10px;
+        }
+      }
+
+      button {
+        padding: 20px;
+        border: none;
+        background-color: orange;
+        cursor: pointer;
+        font-weight: 500;
+        @include mobile {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
