@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "E Commerce-APP",
-    img: "/public/Ecommerce.png",
+    img: "/Ecommerce.png",
     desc: "This e-commerce web project serves as a platform for online retail, providing users with a seamless and secure shopping experience. Users can explore a diverse catalog of products through an intuitive and responsive ReactJS-based frontend. NodeMailer facilitates communication by sending transactional emails, such as order confirmations and updates",
     site:  "https://ecombackend-c4u1.vercel.app/"
   },
