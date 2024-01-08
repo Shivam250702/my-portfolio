@@ -10,3 +10,25 @@
     font-size: 36px;
 
 }
+
+// Your regular styles here
+
+// Media query for mobile devices
+@media only screen and (max-width: 767px) {
+  // Styles specific to mobile devices
+.fg{
+ display: none;
+}
+ 
+ 
+  // Example: Adjust font size for mobile
+}
+
+// Media query for tablet devices
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  // Styles specific to tablets
+
+  .fg{
+    display: none;
+   }
+}

@@ -9,18 +9,13 @@
 }
 
 .b1{
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 40px ;
   font-style: normal;
   font-weight: 700;
-  bac
+ 
 }
 @media only screen and (max-width: 768px) {
-  .b1 {
-    overflow-x: hidden;
-  }
-}
-@media only screen and (max-width: 480px) {
   .b1 {
     overflow-x: hidden;
   }
@@ -99,10 +94,12 @@ body {
   }
   
   .icon-container img:hover {
-    -webkit-animation: spin 4s linear;
-    -moz-animation: spin 4s linear;
-    animation: spin 4s linear;
-  }
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: transform 0.4s ease; 
+}
+
   
   @media (max-width: 768px) {
     .icon-container img {
@@ -252,7 +249,9 @@ body {
   
     }
   }
-  
+  .b1{
+    margin-bottom: 85px;
+  }
   .grow {
     transition: all .2s ease-in-out;
   }
@@ -310,3 +309,22 @@ body {
   .get-in-touch-container {
     display: flex;
     gap: 1em;
+  }
+
+  .b1 {
+    /* Your regular styles here */
+  
+    /* Media query for mobile devices */
+    @media only screen and (max-width: 767px) {
+      /* Styles specific to mobile devices */
+  
+      /* Example: Adjust margins or padding to prevent submerging */
+      margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .b1 {
+      display: none;
+    }
+  }
+  

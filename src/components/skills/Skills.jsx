@@ -4,11 +4,11 @@ import './Skills.css'
 const Skills = () => {
   return (
     <>
-    <h1 class="b2"><center>SKILLS</center></h1>
+    <h1 className="b2"><center>SKILLS</center></h1>
     <div className="container" id="skills">
       <div className="stack-container">
         <img alt="Tech1" src="/Tech1.png"></img>
-        <h1 class="b3">Tech Stack</h1>
+        <h1 className="b3">Tech Stack</h1>
       </div>
       <div className="icon-container b3">
         <img alt="C" src="/C.png"></img>
@@ -33,7 +33,7 @@ const Skills = () => {
         <img alt="Vercel" src="/Vercel.png"></img>
       </div>
 
-      <div class="b1">
+      <div className="b1">
     <center>
     
     <Github/>
