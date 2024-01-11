@@ -79,7 +79,7 @@ const Services = () => {
           <br/>
             "Strive to build things that make a difference!"{" "}
           </p>
-          {/* <Github/> */}
+       
             </h2>
  
           

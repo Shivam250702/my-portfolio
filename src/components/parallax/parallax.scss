@@ -53,4 +53,11 @@
         position: absolute;
         z-index: 1;
     }
+    @media only screen and (max-width: 480px) {
+         h1{
+            width: 60px;
+            margin-left: -150px;
+            font-size: 35px;
+         }
+      }
 }

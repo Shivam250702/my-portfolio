@@ -77,7 +77,7 @@ const Contact = () => {
             />
           </svg>
           </motion.div>
-    <motion.form ref={formRef} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:4,duration: 1}} onSubmit={sendEmail}>
+    <motion.form className='mm' ref={formRef} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:4,duration: 1}} onSubmit={sendEmail}>
         <input type="text"  id="" required placeholder='Name' name='name' />
         <input type="email" id="" required placeholder='Email' name='email' />
         <textarea rows={8} placeholder='Message' name="message"/>

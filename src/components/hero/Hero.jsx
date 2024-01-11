@@ -1,7 +1,6 @@
 import React from 'react'
 import './hero.scss'
 import { motion } from 'framer-motion'
-import Github from '../skills/Github'
 const textVairants={
   initial:{
     x:-500,
@@ -47,7 +46,7 @@ const hero = () => {
     <div className="wrapper">
     
     <motion.div className="textContainer" variants={textVairants} initial="initial" animate="animate">
-      <motion.h2 variants={textVairants}>Shivam Singh</motion.h2>
+      <motion.h2 className='t2' variants={textVairants}>Shivam Singh</motion.h2>
       <motion.h1 variants={textVairants}>Web Devloper and Competitive Programmer</motion.h1>
       <motion.div variants={textVairants} className="buttons">
         <motion.button variants={textVairants}> See the Latest Works</motion.button>

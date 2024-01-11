@@ -97,4 +97,20 @@
       }
     }
   }
+  @media only screen and (max-width: 480px) {
+   .textContainer{
+display: none;
+ 
+  .item1{
+font-size: 10px;
+  }
+
+   }
+   .item1{
+    height: 20%;
+    font-size: 17px;
+padding: 0;
+margin: 0;
+       }
+ }
 }
